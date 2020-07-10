@@ -6,11 +6,15 @@
     "configurations": [
         {
             "name": "Launch",
-            "type": "go",
+            // "type": "go",
+            "type": "godlvdap",
+            "env": {
+                "dlvPath": "/home/eliben/eli/delve/dlv"
+            },
             "request": "launch",
             "mode": "auto",
             "program": "${fileDirname}",
-            "env": {},
+            "trace": "verbose",
             "args": []
         }
     ]

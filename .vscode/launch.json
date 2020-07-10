@@ -13,7 +13,7 @@
             },
             "request": "launch",
             "mode": "auto",
-            "program": "${file}",
+            "program": "${fileDirname}",
             "trace": "verbose",
             "args": []
         }

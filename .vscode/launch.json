@@ -14,7 +14,7 @@
             "request": "launch",
             "mode": "auto",
             "program": "${fileDirname}",
-            "trace": "verbose",
+            // "trace": "verbose",
             "args": []
         }
     ]

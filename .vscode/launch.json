@@ -11,10 +11,12 @@
             "env": {
                 "dlvPath": "/home/eliben/eli/delve/dlv"
             },
+            "showLog": true,
+            "logOutput": "dap",
             "request": "launch",
             "mode": "auto",
             "program": "${fileDirname}",
-            // "trace": "verbose",
+            "trace": "verbose",
             "args": []
         }
     ]
